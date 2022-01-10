@@ -3,7 +3,7 @@ pipeline{
    stages{
    stage("Git Checkout"){
    steps{
-      git credentialsId: 'saimskIN' , url: 'https://github.com/SaimskIN/Depoy.git'
+      git credentialsId: '123' , url: 'https://github.com/SaimskIN/Depoy.git'
       }
       }
       stage("Maven build"){
